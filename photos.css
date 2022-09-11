@@ -1,0 +1,149 @@
+*{
+   /* border: 1px solid red;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(88, 185, 137);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+    
+
+
+}
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+}
+.nav-item{
+    margin: 2px;
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(8,8,8);
+}
+a:hover{
+    color:rgb(10, 95, 121)
+}
+.header{
+    
+    color:white;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background:linear-gradient(to bottom, rgba(255,255,255,0)0%, rgb(0,0,0) 45%);
+    align-items: flex-end;
+}
+.main-landing{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 201, 95);
+    color:black;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 0%;
+    margin: 0%;
+ 
+}
+.intro{
+    background-color:rgb(20, 201, 95) ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.tiny{
+    background-color:rgb(88, 185, 137) ;
+    margin: 5%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(12, 12, 12);
+    
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+#two{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#three{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+#five{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    
+}
+
+.image-container-action{
+    
+    margin: 2%;
+    padding: 5%;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(88, 185, 137);
+    padding: 5%;
+    margin:0%;
+}
+
+  
+    
+ 
+
+
+
+
